@@ -8,7 +8,8 @@
 // @connect      *Zorn192.github.io/Antiaquark*
 // @connect      *ivark.github.io*
 // @connect      self
-// @grant        none
+// @grant        GM_getValue
+// @grant        GM_setValue
 // ==/UserScript==
 
 var script = document.createElement('script');
