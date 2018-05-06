@@ -15,5 +15,4 @@
 var script = document.createElement('script');
 script.id = 'Antiquark-script';
 script.src = 'https://Zorn192.github.io/Antiquark/Antiquark.js';
-script.setAttribute('crossorigin',"anonymous");
-document.head.appendChild(script);
+document.getElementsByTagName("head")[0].appendChild(script);
